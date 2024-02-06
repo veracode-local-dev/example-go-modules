@@ -4,6 +4,7 @@ import "fmt"
 import "github.com/google/go-querystring/query"
 import "github.com/srcclr/example-go-modules/sub"
 import "github.com/srcclr/example-go-modules/sub2"
+import "github.com/srcclr/example-go-modules/sub3"
 
 type Options struct {
     Query   string `url:"q"`
@@ -20,4 +21,6 @@ func main() {
     sub.Foo()
 
     sub2.Bar()
+
+    sub3.Baz()
 }
